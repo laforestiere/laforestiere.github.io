@@ -1,5 +1,9 @@
+.jumbotron {
+	background-color: #d6cac0;
+}
+
+
 .jumbotron h1, h3 {
-/*	color: rgb(94, 83, 79);*/
 	color: white;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
 				 0px 8px 13px rgba(0,0,0,0.3),
@@ -85,4 +89,11 @@ h2 {
 #contact {
 	background-color: white;
 	text-align: center;
+}
+
+.carousel-item > img {
+	width: 33%;
+	height: 600px;
+	object-fit: cover;
+	position: center;
 }
