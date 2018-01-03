@@ -89,11 +89,11 @@ h2 {
 #contact {
 	background-color: white;
 	text-align: center;
+	font-size: 1.2rem;
 }
 
 .carousel-item > img {
 	width: 33%;
 	height: 600px;
 	object-fit: cover;
-	position: center;
 }
