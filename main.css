@@ -72,28 +72,18 @@ h2 {
 	margin-bottom: 50px;
 }
 
-/* pour faire bouger la navbar selon le scrolling */
-/*@media(min-width:767px) {
-    .navbar {
-        padding: 10px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}*/
-
 #contact {
-	background-color: white;
+	background-color: #d6cac0;
 	text-align: center;
 	font-size: 1.2rem;
 }
 
 .carousel-item > img {
-	width: 33%;
+	width: 100%;
 	height: 600px;
 	object-fit: cover;
+}
+
+#photo-gallery > .row > .col-4 {
+	padding: 1px;
 }
