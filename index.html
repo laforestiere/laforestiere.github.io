@@ -9,7 +9,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico|Spectral+SC:300i" rel="stylesheet">
+	<!-- Polices non utilisées à virer -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Shadows+Into+Light+Two|Dancing+Script|Lobster|Marck+Script|Pacifico|Spectral+SC:300i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -41,33 +42,27 @@
 	<div class="container">
 		<div class="jumbotron" id="home-img">
 			<h1>La Forestière</h1>
-			<h3>Bed & Breakfast</h3>
+			<h3>Chambres d'hôtes</h3>
 		</div>
 
 
-		<div class="jumbotron hello" id="the-house">
+		<div class="jumbotron" id="the-house">
 			<h2>Notre maison d'hôtes</h2>
 			<p id="slogan">Un endroit magique pour découvrir l'Alsace pour les passionnés de nature ou à la recherche d'un lieu idéal pour se détendre</p>
 			<p>Une maison d'hôtes à découvrir au bout d'un chemin privé, dans un village de montagne situé à 8 km de la Route des Vins d'Alsace que l'on retrouve à Andlau et à 40 minutes de Strasbourg ou Colmar.</p>
 			<p>Cinq chambres d'hôtes de charme de très grand confort, au calme absolu, dont deux suites familiales, décorées avec des matériaux nobles et raffinés comme des parquets massifs en chêne brossé et ardoise au sol, des enduits à la chaux, de la literie haut de gamme en taille King Size, de l'isolation phonique entre les chambres.</p>
 			<p>Un grand jardin paysagé avec plusieurs terrasses où le petit-déjeuner sera servi dès les beaux jours et un spa jacuzzi extérieur pour un séjour détente et cocooning.</p>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 img-display">
 					<div>
 						<img src="img/vue_foret.jpg" class="img-thumbnail">
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div >
-						<img src="img/vue_3.jpg" class="img-thumbnail">
-					</div>
-						<div class="col-md-12">
-							<div>
-								<img src="img/vue_arriere.jpg" class="img-thumbnail">
-							</div>
-						</div>
+				<div class="col-md-4 img-display">
+					<img src="img/vue_4.jpg" class="img-thumbnail">
+					<img src="img/vue_arriere.jpg" class="img-thumbnail">
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 img-display">
 					<img src="img/catherine_eric.jpg" class="img-thumbnail">
 				</div>
 			</div>
@@ -173,6 +168,7 @@
 
 		</div>
 
+
 		<div class="jumbotron" id="activities">
 			<h2>Visites et Activités</h2>
 			<div class="row">
@@ -193,6 +189,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4 activities">
+					<h4>Parcs de loisirs</h4>
 					<ul>
 						<li><a href="http://www.parc-alsace-aventure.com/">Parc Alsace Aventure</a></li>
 						<li><a href="http://www.voleriedesaigles.com/">La Volerie des Aigles</a></li>
@@ -202,11 +199,31 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
+					<h4>Activités OUTDOOR</h4>
 					<p>Randonnées pédestres: notre village est incontestablement un lieu idéal pour les randonneurs de tous niveaux, des kilomètres de sentiers balisés , des auberges pour se ravitailler, des paysages majestueux, des parcours à disposition: ça marche !</p>
 					<p>VTT: sentiers balisés au départ de notre maison, pour tous les niveaux et superbes "single trail", des cartes, des parcours à votre disposition ainsi que notre garage et le jet d'eau pour laver les vélos, nous pouvons également vous réserver un guide, tout est facilité pour le vététiste.</p>
 					<p>E-bike ou VTT à assistance électrique peut se pratiquer facilement de chez nous avec cartes et parcours adaptés, nous possédons également un adaptateur pour recharger les batteries et adresses pour la location</p>
 					<p><a href="http://www.canyonescalade.fr/">Canyonescalade</a></p>
 					<p>Terrain de tennis à disposition gratuitement dans le village ainsi qu'un parcours de santé de 2,3 km.</p>
+
+					<h4 id="champdufeu">Station de ski du <a href="http://www.lechampdufeu.com/">Champ du Feu</a></h4>
+					<p>Elle se trouve à 10 mn en voiture de chez nous, à 1100 m d'altitude et possède 14 pistes de ski alpin et un magnifique site nordique pour ski de fond alternatif et skating, des pistes damées pour piétons, raquettes à neige et de luge et une école de ski.</p>
+				</div>
+
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6 img-display">
+							<img class="img-thumbnail" src="img/ski_champ_du_feu.jpg">
+							<img class="img-thumbnail" src="img/cathedrale2.jpg">
+							<img class="img-thumbnail" src="img/mont_sainte_odile.jpg">
+						</div>
+						<div class="col-md-6 img-display">
+							<img class="img-thumbnail" src="img/colmar_noel.jpg">
+							<img class="img-thumbnail" src="img/vtt_vue.jpg">
+							<img class="img-thumbnail" src="img/retable_issenheim.jpg">
+							<img class="img-thumbnail" src="img/mittelbergheim.jpg">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -217,24 +234,21 @@
 			<h2>Nous Contacter</h2>
 			<div class="row">
 				<div class="col-md-4 footer">
-					<a href="mailto:laforestiere.alsace@orange.fr"><i class="fa fa-envelope" aria-hidden="true"></i> laforestiere.alsace@orange.fr</a>
+					<a href="mailto:laforestiere.alsace@orange.fr"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i> laforestiere.alsace@orange.fr</a>
 				</div>
 				<div class="col-md-4 footer">
 					<p><strong>Chambres d'hôtes La Forestière</strong><br>10A chemin du Eck - 67140 LE HOHWALD</p>
 				</div>
 				<div class="col-md-4 footer">
-					<p>Tel: +33 (0)3 88 08 31 08</p>
+					<p><i class="fa fa-2x fa-phone" aria-hidden="true"></i> +33 (0)3 88 08 31 08</p>
 				</div>
 			</div>
+
+			<div class="row">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.099444684805!2d7.3231740156581004!3d48.39703337924489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47915684e5a4add7%3A0x8ba1779c4114cb9f!2sChambres+d&#39;H%C3%B4tes+La+Foresti%C3%A8re!5e0!3m2!1sen!2sfr!4v1514994271504" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 		</div>
 
-	<!-- pour Bootstrap -->
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
-
-	<!-- pour le scrolling -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -1,10 +1,22 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background-color: #918782;
+	padding-top: 70px;
+	font-size: 16px;
+}
+
 .jumbotron {
-	background-color: #d6cac0;
+	background-color: #dddad7;
 }
 
 
 .jumbotron h1, h3 {
-	color: white;
+	color: #dddad7;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
 				 0px 8px 13px rgba(0,0,0,0.3),
 				 0px 18px 23px rgba(0,0,0,0.3);
@@ -15,22 +27,23 @@
 }
 
 h1 {
-	font-family: "Pacifio";
+	font-family: "Raleway";
+	font-size: 3rem;
+	color: #f4efef;
 }
 
 h3 {
-	font-family: "Spectral SC";
+	font-family: "Raleway";
+	font-size: 2rem;
+	color: #f4efef;
 }
 
-body {
-	background-color: #888080;
-	padding-top: 70px;
-	font-size: 16px;
-}
 
 #slogan {
-	padding-bottom: 20px;
-	text-align: left;
+	padding: 30px;
+	font-family: "Shadows Into Light Two";
+	font-size: 1.7rem;
+	font-weight: 700;
 }
 
 .jumbotron p, h2, h4 {
@@ -63,17 +76,12 @@ body {
     height: 100%;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
-
 h2 {
 	margin-bottom: 50px;
 }
 
 #contact {
-	background-color: #d6cac0;
+	background-color: #dddad7;
 	text-align: center;
 	font-size: 1.2rem;
 }
@@ -86,4 +94,22 @@ h2 {
 
 #photo-gallery > .row > .col-4 {
 	padding: 1px;
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-link:hover {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+#champdufeu {
+	margin-top: 75px;
+}
+
+.img-display {
+	padding-right: 0px;
 }
