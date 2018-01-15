@@ -136,3 +136,17 @@ a[href="./les-chambres"] > button {
 				 0px 18px 23px rgba(0,0,0,0.3);
 }
 
+.chambres {
+	border: 2px solid gray;
+	margin-bottom: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.room-desc p, .room-desc h6 {
+	text-align: center;
+}
+
+.icon-room > .fa {
+	padding-right: 1.5rem;
+}
