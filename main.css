@@ -3,6 +3,14 @@
 	.hidden-md {
 		visibility: hidden;
 	}
+
+}
+
+@media (min-width: 991px) {
+	.language-bar {
+	position: relative;
+	left: 17%;
+	}
 }
 
 @media (max-width: 576px){
@@ -10,6 +18,7 @@
 		visibility: hidden;
 		height: 0px;
 	}
+
 }
 
 html {
@@ -109,6 +118,10 @@ iframe {
 	margin-right: auto;
 }
 
+.nav-link {
+	transition: all 0.7s;
+}
+
 .nav-link:hover {
 	background-color: #4f4f4f;
 }
@@ -129,9 +142,13 @@ iframe {
 a[href="./les-chambres"] > button {
 	margin: auto;
 	display: block;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
-				 0px 8px 13px rgba(0,0,0,0.3),
-				 0px 18px 23px rgba(0,0,0,0.3);
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+a[href="./les-chambres"] > button:hover {
+	background: rgba(255,255,255,0.5);
 }
 
 .transparent {
@@ -171,4 +188,8 @@ a[href="./les-chambres"] > button {
 
 .link-modif:hover {
 	color: lightcoral;
+}
+
+.language-bar > .languages {
+	display: inline-block;
 }
