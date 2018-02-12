@@ -1,3 +1,11 @@
+html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+
+            }
+
 
 @media (min-width: 768px) {
 	.hidden-md {
@@ -8,8 +16,9 @@
 
 @media (min-width: 991px) {
 	.language-bar {
-	position: relative;
-	left: 17%;
+	position: absolute;
+	right: 20px;
+	top: 10px;
 	}
 }
 
@@ -32,6 +41,17 @@ body {
 	font-size: 16px;
 }
 
+#brand {
+	font-size: 2.0em;
+	font-family: "Amatic SC"
+}
+
+#sub-brand {
+	font-size: 1.4em;
+	padding-left: 10px;
+	font-family: "Amatic SC"
+}
+
 .jumbotron {
 	background-color: #dddad7;
 }
@@ -48,22 +68,9 @@ body {
 	padding-top: 30px;
 }
 
-h1 {
-	font-family: "Raleway";
-	font-size: 3rem;
-	color: #f4efef;
-}
-
-h3 {
-	font-family: "Raleway";
-	font-size: 2rem;
-	color: #f4efef;
-}
-
-
 #slogan {
 	padding: 30px;
-	font-family: "Shadows Into Light Two";
+	font-family: "Indie Flower";
 	font-size: 1.7rem;
 	font-weight: 700;
 }
@@ -77,7 +84,7 @@ h3 {
 }
 
 #home-img {
-	background: url("img/home2.jpg");
+	background: url("img/home.jpg");
 	background-position: center;
 	background-size: cover;
 	padding-bottom: 25%;
@@ -109,6 +116,12 @@ h2 {
 	object-fit: cover;
 }
 
+.carousel-item > .home-img {
+	max-width: 100%;
+	height: 80vh;
+	object-fit: cover;
+}
+
 #photo-gallery > .row > .col-4 {
 	padding: 1px;
 }
@@ -116,6 +129,10 @@ h2 {
 iframe {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.navbar {
+	font-size: 1.2rem;
 }
 
 .nav-link {
@@ -192,4 +209,12 @@ a[href="./les-chambres"] > button:hover {
 
 .language-bar > .languages {
 	display: inline-block;
+	border-left: rgba(255,255,255,.3) 1px solid;
+	height: 77%;
+	padding: 8px;
+	vertical-align: text-bottom;
+}
+
+#home-slides {
+	margin-bottom: 20px;
 }
