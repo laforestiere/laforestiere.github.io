@@ -201,7 +201,8 @@ a[href="./les-chambres"] > button:hover {
 }
 
 #deer-icon > img {
-	width: 50%;
+	width: 35%;
+	padding-top: 50px;
 }
 
 .link-modif {

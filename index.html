@@ -36,17 +36,17 @@
 		  </button>
 		  <div class="collapse navbar-collapse mr-auto" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link js-scroll-trigger" href="#home">Accueil <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#the-house">La Maison</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#rooms">Les Chambres</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#services">Services</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#photo-gallery">Photos</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#activities">Visites et Activités</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="#contact">Contact</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#home" key="home">Accueil <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#the-house" key="house">La Maison</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#rooms" key="rooms">Les Chambres</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#services" key="services">Services</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#photo-gallery" key="photos">Photos</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#activities" key="activities">Visites et Activités</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#contact" key="contact">Contact</a>
 		      <div class="language-bar">
-		      	<a class="nav-item nav-link languages" href="#">FR</a>
-			  <a class="nav-item nav-link languages" href="./en">EN</a>
-			  <a class="nav-item nav-link languages" href="./de">DE</a>
+		      	<a id="fr" class="nav-item nav-link languages" href="#">FR</a>
+			  <a id="en" class="nav-item nav-link languages" href="#">EN</a>
+			  <a id="de" class="nav-item nav-link languages" href="#">DE</a>
 		      </div>
 		      
 		    </div>
@@ -318,7 +318,8 @@
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
 
-
-	<!-- <script type="text/javascript" src="js/main.js"></script> -->
+    <!-- Pour changer le texte selon la langue -->
+	<script type="text/javascript" src="js/translate.js"></script>
 </body>
 </html>
+
