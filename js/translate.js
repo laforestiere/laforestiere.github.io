@@ -9,7 +9,7 @@ var arrLang = {
 		"rooms" : "Les Chambres",
 		"services" : "Services",
 		"photos" : "Photos",
-		"activities" : "Visites et activités",
+		"activities" : "Visites et Activités",
 		"contact" : "Contact"
 	},
 	"en" : 
