@@ -20,7 +20,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Polices non utilisées à virer -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway|Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Indie+Flower" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="../main.css">
@@ -28,19 +28,25 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
-		  <a class="navbar-brand js-scroll-trigger" href="https://laforestiere.github.io"><i class="fa fa-tree" aria-hidden="true"></i> La Forestière</a>
+		  <a class="navbar-brand" href="https://laforestiere.github.io"><span id="brand"><i class="fa fa-tree" aria-hidden="true"></i> La Forestière</span><br><span id="sub-brand">Chambres d'hôtes</span></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="collapse navbar-collapse mr-auto" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active js-scroll-trigger" href="../#home">Accueil <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#the-house">La Maison</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#rooms">Les Chambres</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#services">Services</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#photo-gallery">Gallerie Photos</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#activities">Visites et Activités</a>
-		      <a class="nav-item nav-link js-scroll-trigger" href="../#contact">Contact</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="../#home" key="home">Accueil <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#room-1" key="room-1">Chambre 1</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#room-2" key="room-2">Chambre 2</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#room-3" key="room-3">Chambre 3</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#room-4" key="room-4">Chambre 4</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#room-5" key="room-5">Chambre 5</a>
+		      <a class="nav-item nav-link js-scroll-trigger lang" href="#tarifs" key="tarifs">Tarifs</a>
+		      <div class="language-bar">
+		      	<a id="fr" class="nav-item nav-link languages" href="#">FR</a>
+			  <a id="en" class="nav-item nav-link languages" href="#">EN</a>
+			  <a id="de" class="nav-item nav-link languages" href="#">DE</a>
+		      </div>
+		      
 		    </div>
 		  </div>
 	  </div>
@@ -49,8 +55,8 @@
 		<div class="jumbotron">
 			<h2>Les chambres</h2>
 
-			<div class="row chambres rounded">
-				<div class="col-8">
+			<div class="row chambres rounded" id="room-1">
+				<div class="col-md-8">
 					<div id="chambre1" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <ol class="carousel-indicators">
 					    <li data-target="#chambre1" data-slide-to="0" class="active"></li>
@@ -78,7 +84,7 @@
 					  </a>
 					</div>
 				</div>
-				<div class="col-4 room-desc">
+				<div class="col-md-4 room-desc">
 					<h4>Chambre N°1</h4>
 					<h6>Suite familiale pour 1 à 4 personnes</h6>
 					<p class="icon-room"><i class="fa fa-2x fa-wifi" aria-hidden="true"></i><i class="fa fa-2x fa-tv" aria-hidden="true"></i><i class="fa fa-2x fa-bath" aria-hidden="true"></i></p>
@@ -93,8 +99,8 @@
 				</div>
 			</div> <!-- end row -->
 
-			<div class="row chambres rounded">
-				<div class="col-4 room-desc">
+			<div class="row chambres rounded" id="room-2">
+				<div class="col-md-4 room-desc">
 					<h4>Chambre N°2</h4>
 					<h6>Chambre double</h6>
 					<p class="icon-room"><i class="fa fa-2x fa-wifi" aria-hidden="true"></i><i class="fa fa-2x fa-tv" aria-hidden="true"></i><i class="fa fa-2x fa-bath" aria-hidden="true"></i></p>
@@ -106,7 +112,7 @@
 						<li>Taxe de séjour à rajouter: 0,80 €/pers./nuit</li>
 					</ul>
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<div id="chambre2" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <ol class="carousel-indicators">
 					    <li data-target="#chambre2" data-slide-to="0" class="active"></li>
@@ -136,8 +142,8 @@
 				</div>
 			</div>
 
-			<div class="row chambres rounded">
-				<div class="col-8">
+			<div class="row chambres rounded" id="room-3">
+				<div class="col-md-8">
 					<div id="chambre3" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <ol class="carousel-indicators">
 					    <li data-target="#chambre3" data-slide-to="0" class="active"></li>
@@ -169,7 +175,7 @@
 					  </a>
 					</div>
 				</div>
-				<div class="col-4 room-desc">
+				<div class="col-md-4 room-desc">
 					<h4>Chambre N°3</h4>
 					<h6>Chambre double</h6>
 					<p class="icon-room"><i class="fa fa-2x fa-wifi" aria-hidden="true"></i><i class="fa fa-2x fa-tv" aria-hidden="true"></i><i class="fa fa-2x fa-shower" aria-hidden="true"></i></p>
@@ -183,8 +189,8 @@
 				</div>
 			</div> <!-- end row -->
 
-			<div class="row chambres rounded">
-				<div class="col-4 room-desc">
+			<div class="row chambres rounded" id="room-4">
+				<div class="col-md-4 room-desc">
 					<h4>Chambre N°4</h4>
 					<h6>Chambre double</h6>
 					<p class="icon-room"><i class="fa fa-2x fa-wifi" aria-hidden="true"></i><i class="fa fa-2x fa-tv" aria-hidden="true"></i><i class="fa fa-2x fa-bath" aria-hidden="true"></i></p>
@@ -196,7 +202,7 @@
 						<li>Taxe de séjour à rajouter: 0,80 €/pers./nuit</li>
 					</ul>
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<div id="chambre4" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <ol class="carousel-indicators">
 					    <li data-target="#chambre4" data-slide-to="0" class="active"></li>
@@ -226,8 +232,8 @@
 				</div>
 			</div> <!-- end row -->
 
-			<div class="row chambres rounded">
-				<div class="col-8">
+			<div class="row chambres rounded" id="room-5">
+				<div class="col-md-8">
 					<div id="chambre5" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <ol class="carousel-indicators">
 					    <li data-target="#chambre5" data-slide-to="0" class="active"></li>
@@ -255,7 +261,7 @@
 					  </a>
 					</div>
 				</div>
-				<div class="col-4 room-desc">
+				<div class="col-md-4 room-desc">
 					<h4>Chambre N°5</h4>
 					<h6>Chambre double</h6>
 					<p class="icon-room"><i class="fa fa-2x fa-wifi" aria-hidden="true"></i><i class="fa fa-2x fa-tv" aria-hidden="true"></i><i class="fa fa-2x fa-bath" aria-hidden="true"></i></p>
@@ -269,8 +275,71 @@
 					</ul>
 				</div>
 			</div> <!-- end row -->
+		</div>
 
-		</div>	
+		<div class="jumbotron pricing" id="tarifs">
+			<h2>Les Tarifs 2018</h2>
+			<h4>Trois chambres doubles aux même tarifs</h4>
+			<table class="table table-striped">
+				<thead class="thead-dark">
+					<tr>
+					<th>Tarifs par nuit par chambre double<br>petit déjeuner comrpis</th>
+					<th>Séjour d'1 nuitée</th>
+					<th>Séjour de 2 ou 3 nuitées</th>
+					<th>Séjour de 4 nuitées ou plus</th>
+					</tr>
+				</thead>
+				
+				<tr>
+					<td>1 personne</td>
+					<td>91 € la nuit</td>
+					<td>86 € la nuit</td>
+					<td>81 € la nuit</td>
+				</tr>
+				<tr>
+					<td>2 personnes</td>
+					<td>106 € la nuit</td>
+					<td>101 € la nuit</td>
+					<td>96 € la nuit</td>
+				</tr>
+				</table>
+				<h4>Deux Suites familiales avec deux tarifs selon la suite n°5 ou la suite n°1</h4>
+				<table class="table table-striped">
+					<thead class="thead-dark">
+					<tr>
+					<th>Tarifs par nuit par suite familiale</th>
+					<th>Séjour d'1 nuitée</th>
+					<th>Séjour de 2 ou 3 nuitées</th>
+					<th>Séjour de 4 nuitées ou plus</th>
+					</tr>
+				</thead>
+				<tr>
+					<td>1 personne</td>
+					<td>96 ou 101 € la nuit</td>
+					<td>91 ou 96 € la nuit</td>
+					<td>86 ou 91 € la nuit</td>
+				</tr>
+				<tr>
+					<td>2 personnes</td>
+					<td>111 ou 116 € la nuit</td>
+					<td>106 ou 111 € la nuit</td>
+					<td>101 ou 106 € la nuit</td>
+				</tr>
+				<tr>
+					<td>3 personnes</td>
+					<td>138 ou 143 € la nuit</td>
+					<td>133 ou 138 € la nuit</td>
+					<td>128 ou 133 € la nuit</td>
+				</tr>
+				<tr>
+					<td>4 personnes</td>
+					<td>166 ou 170 € la nuit</td>
+					<td>160 ou 165 € la nuit</td>
+					<td>155 ou 160 € la nuit</td>
+				</tr>
+			</table>
+		</div>
+			
 	</div>
 	
 
@@ -282,6 +351,9 @@
     <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+
+    <!-- Pour changer le texte selon la langue -->
+	<!-- <script type="text/javascript" src="../js/translate.js"></script> -->
 </body>
 </html>
