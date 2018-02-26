@@ -130,7 +130,7 @@ iframe {
 	font-size: 2.0rem;
 }
 
-a[href="./les-chambres"] > button {
+div[class="card-img-overlay"] > a > button {
 	margin: auto;
 	display: block;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
