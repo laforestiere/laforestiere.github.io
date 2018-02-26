@@ -278,6 +278,20 @@
 		</div>
 
 		<div class="jumbotron pricing" id="tarifs">
+			<script>
+function resizewidgetdispos() {
+document.getElementById('widgetdispos').style.height = document.getElementById('myFrameWidgetDispos').contentWindow.document.getElementById('total').clientHeight + 10 + 'px';
+document.getElementById('widgetdispos').style.overflow = 'hidden';
+window.onresize = function(event) {
+document.getElementById('widgetdispos').style.height = document.getElementById('myFrameWidgetDispos').contentWindow.document.getElementById('total').scrollHeight + 10 +'px';
+document.getElementById('widgetdispos').style.overflow = 'hidden';
+};
+}
+</script>
+<div id='widgetdispos'>
+<iframe onload='resizewidgetdispos();' id='myFrameWidgetDispos' src='https://apps.tourisme-alsace.info/dispos/pub/disposannu.asp?inclu=N&produit=213003251&consult=a5a5a5&libre=abc638&complet=cc4a4a&fermer=000000&dispt1=20&dispt2=4000&legende=Y&nbmois=12&jdeb=lun&langue=0&incluM=N'  style='height: inherit;' width='100%' scrolling='auto' frameborder='0'></iframe>
+</div>
+
 			<h2>Les Tarifs 2018</h2>
 			<h4>Trois chambres doubles aux même tarifs</h4>
 			<table class="table table-striped">
