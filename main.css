@@ -6,13 +6,6 @@ html, body {
 
             }
 
-@media (min-width: 991px) {
-	.language-bar {
-	position: absolute;
-	right: 20px;
-	}
-}
-
 body {
 	background-color: #918782;
 	padding-top: 120px;
@@ -131,7 +124,7 @@ iframe {
 }
 
 .btn-rooms {
-	margin-bottom: 15px;
+	margin: auto auto 15px auto;
 	display: block;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
 				 0px 8px 13px rgba(0,0,0,0.1),
@@ -206,4 +199,20 @@ iframe {
 
 .pricing h2 {
 	letter-spacing: 10px;
+}
+
+@media (min-width: 991px) {
+	.language-bar {
+	position: absolute;
+	right: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.transparent {
+		margin: 0 auto;
+	}
+	.card-img-overlay {
+		padding: 0;
+	}
 }
