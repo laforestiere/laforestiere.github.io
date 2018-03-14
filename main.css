@@ -201,6 +201,33 @@ iframe {
 	letter-spacing: 10px;
 }
 
+#payment p {
+	text-align: left;
+}
+
+#payment img {
+	width: 50px;
+}
+
+#payment #ancv {
+	width: 100px;
+}
+#restriction {
+	margin-top: 70px;
+}
+
+.guides {
+	margin-top: 70px;
+}
+
+.guides p, ul{
+	text-align: left;
+}
+
+.guides	img {
+	width: 15%;
+}
+
 @media (min-width: 991px) {
 	.language-bar {
 	position: absolute;
